@@ -1,0 +1,1018 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: svrDispatcher, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "c:\E900\Owdc\Source\svrDispatcher\Debug\RSP000001.rsp" with contents
+[
+/Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "KERNEL" /D "_MBCS" /FD /EHsc /RTC1 /MLd /Zp1 /YX"stdafx.h" /Fp".\Debug/svrDispatcher.pch" /Fo".\Debug/svrDispatcher1.obj" /Fd".\Debug/" /W3 /c /ZI /Gz /TP
+.\svrDispatcher.c
+]
+Creating command line "cl.exe @c:\E900\Owdc\Source\svrDispatcher\Debug\RSP000001.rsp /nologo"
+Creating temporary file "c:\E900\Owdc\Source\svrDispatcher\Debug\RSP000002.rsp" with contents
+[
+/VERBOSE /OUT:"./Debug/svrDispatcher.exe" /INCREMENTAL:NO /NOLOGO /DEBUG /PDB:".\Debug/svrDispatcher.pdb" /SUBSYSTEM:CONSOLE /STACK:4194304 /MACHINE:X86 C:\E900\system\lib32\JDEKRNL.lib C:\E900\system\lib32\jdeunicode.lib C:\E900\system\lib32\jdel.lib C:\E900\OWDC\Lib\pdcurses.lib C:\E900\OWDC\Lib\OWDCmp.lib C:\E900\OWDC\Lib\OWDC.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+.\Debug\svrDispatcher1.obj
+]
+Creating command line "link.exe @c:\E900\Owdc\Source\svrDispatcher\Debug\RSP000002.rsp"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+svrDispatcher.c
+Linking...
+Starting pass 1
+Processed /DEFAULTLIB:uuid.lib
+Processed /DEFAULTLIB:Ws2_32.lib
+Processed /DEFAULTLIB:LIBCD
+Processed /DEFAULTLIB:OLDNAMES
+LINK : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+svrDispatcher1.obj : LNK9038: module unsafe for SAFESEH image.
+Searching libraries
+    Searching C:\E900\system\lib32\JDEKRNL.lib:
+      Found __imp__JDB_FreeEnv@4
+        Referenced in svrDispatcher1.obj
+        Loaded JDEKRNL.lib(Jdekrnl.dll)
+      Found __imp__JDB_FreeUser@4
+        Referenced in svrDispatcher1.obj
+        Loaded JDEKRNL.lib(Jdekrnl.dll)
+      Found __imp__jdeErrorClearEx@8
+        Referenced in svrDispatcher1.obj
+        Loaded JDEKRNL.lib(Jdekrnl.dll)
+      Found __imp__FormatDate@12
+        Referenced in svrDispatcher1.obj
+        Loaded JDEKRNL.lib(Jdekrnl.dll)
+      Found __imp__jdeCallObject@40
+        Referenced in svrDispatcher1.obj
+        Loaded JDEKRNL.lib(Jdekrnl.dll)
+      Found __imp__jdeErrorInitializeEx@0
+        Referenced in svrDispatcher1.obj
+        Loaded JDEKRNL.lib(Jdekrnl.dll)
+      Found __imp__jdeCreateBusinessFunctionParms@12
+        Referenced in svrDispatcher1.obj
+        Loaded JDEKRNL.lib(Jdekrnl.dll)
+      Found __imp__JDB_InitEnv@4
+        Referenced in svrDispatcher1.obj
+        Loaded JDEKRNL.lib(Jdekrnl.dll)
+      Found __imp__JDB_InitUser@16
+        Referenced in svrDispatcher1.obj
+        Loaded JDEKRNL.lib(Jdekrnl.dll)
+      Found __imp__JDB_InitEnvOvrExtended@20
+        Referenced in svrDispatcher1.obj
+        Loaded JDEKRNL.lib(Jdekrnl.dll)
+      Found __IMPORT_DESCRIPTOR_Jdekrnl
+        Referenced in JDEKRNL.lib(Jdekrnl.dll)
+        Referenced in JDEKRNL.lib(Jdekrnl.dll)
+        Referenced in JDEKRNL.lib(Jdekrnl.dll)
+        Referenced in JDEKRNL.lib(Jdekrnl.dll)
+        Referenced in JDEKRNL.lib(Jdekrnl.dll)
+        Referenced in JDEKRNL.lib(Jdekrnl.dll)
+        Referenced in JDEKRNL.lib(Jdekrnl.dll)
+        Referenced in JDEKRNL.lib(Jdekrnl.dll)
+        Referenced in JDEKRNL.lib(Jdekrnl.dll)
+        Referenced in JDEKRNL.lib(Jdekrnl.dll)
+        Loaded JDEKRNL.lib(Jdekrnl.dll)
+      Found __NULL_IMPORT_DESCRIPTOR
+        Referenced in JDEKRNL.lib(Jdekrnl.dll)
+        Loaded JDEKRNL.lib(Jdekrnl.dll)
+      Found Jdekrnl_NULL_THUNK_DATA
+        Referenced in JDEKRNL.lib(Jdekrnl.dll)
+        Loaded JDEKRNL.lib(Jdek
+rnl.dll)
+    Searching C:\E900\system\lib32\jdeunicode.lib:
+      Found __imp__jdePrintf
+        Referenced in svrDispatcher1.obj
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found __imp__jdeFromUnicode@16
+        Referenced in svrDispatcher1.obj
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found __imp__jdeFflush@4
+        Referenced in svrDispatcher1.obj
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found __imp__jdeFclose@4
+        Referenced in svrDispatcher1.obj
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found __imp__jdeAtoi@4
+        Referenced in svrDispatcher1.obj
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found __imp__jdeStrcmp@8
+        Referenced in svrDispatcher1.obj
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found __imp__jdeStrlen@4
+        Referenced in svrDispatcher1.obj
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found __imp__jdeStrncpy@12
+        Referenced in svrDispatcher1.obj
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found __imp__jdeFgets@12
+        Referenced in svrDispatcher1.obj
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found __imp__jdeFprintf
+        Referenced in svrDispatcher1.obj
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found __imp__jdeFopen@8
+        Referenced in svrDispatcher1.obj
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found __imp__jdeStrcat@8
+        Referenced in svrDispatcher1.obj
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found __imp__jdeStrcpy@8
+        Referenced in svrDispatcher1.obj
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found __imp__jdeToUnicode@16
+        Referenced in svrDispatcher1.obj
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found __IMPORT_DESCRIPTOR_jdeunicode
+        Referenced in jdeunicode.lib(jdeunicode.dll)
+        Referenced in jdeunicode.lib(jdeunicode.dll)
+        Referenced in jdeunicode.lib(jdeunicode.dll)
+        Referenced in jdeunicode.lib(jdeunicode.dll)
+        Referenced in jdeunicode.lib(jdeunicode.dll)
+        Referenced in 
+jdeunicode.lib(jdeunicode.dll)
+        Referenced in jdeunicode.lib(jdeunicode.dll)
+        Referenced in jdeunicode.lib(jdeunicode.dll)
+        Referenced in jdeunicode.lib(jdeunicode.dll)
+        Referenced in jdeunicode.lib(jdeunicode.dll)
+        Referenced in jdeunicode.lib(jdeunicode.dll)
+        Referenced in jdeunicode.lib(jdeunicode.dll)
+        Referenced in jdeunicode.lib(jdeunicode.dll)
+        Referenced in jdeunicode.lib(jdeunicode.dll)
+        Loaded jdeunicode.lib(jdeunicode.dll)
+      Found jdeunicode_NULL_THUNK_DATA
+        Referenced in jdeunicode.lib(jdeunicode.dll)
+        Loaded jdeunicode.lib(jdeunicode.dll)
+    Searching C:\E900\system\lib32\jdel.lib:
+      Found __imp__jdeCallocInternal@16
+        Referenced in svrDispatcher1.obj
+        Loaded jdel.lib(jdel.dll)
+      Found __IMPORT_DESCRIPTOR_jdel
+        Referenced in jdel.lib(jdel.dll)
+        Loaded jdel.lib(jdel.dll)
+      Found jdel_NULL_THUNK_DATA
+        Referenced in jdel.lib(jdel.dll)
+        Loaded jdel.lib(jdel.dll)
+    Searching C:\E900\OWDC\Lib\pdcurses.lib:
+    Searching C:\E900\OWDC\Lib\OWDCmp.lib:
+      Found "void __stdcall OWDCmp90(int,struct _iobuf *)" (?OWDCmp90@@YGXHPAU_iobuf@@@Z)
+        Referenced in svrDispatcher1.obj
+        Loaded OWDCmp.lib(OWDCmp.dll)
+      Found "void __stdcall OWDCmp02(int *,char *,int,int,int,int,int,int,int,int * const,char * * const,char (* const)[128],int * const,char *,int,struct _iobuf *)" (?OWDCmp02@@YGXPAHPADHHHHHHHQAHQAPADQAY0IA@D21HPAU_iobuf@@@Z)
+        Referenced in svrDispatcher1.obj
+        Loaded OWDCmp.lib(OWDCmp.dll)
+      Found __IMPORT_DESCRIPTOR_OWDCmp
+        Referenced in OWDCmp.lib(OWDCmp.dll)
+        Referenced in OWDCmp.lib(OWDCmp.dll)
+        Loaded OWDCmp.lib(OWDCmp.dll)
+      Found OWDCmp_NULL_THUNK_DATA
+        Referenced in OWDCmp.lib(OWDCmp.dll)
+        Loaded OWDCmp.lib(OWDCmp.dll)
+    Searching C:\E900\OWDC\Lib\OWDC.lib:
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\lib\kernel32.lib:
+      Found __imp__GetLastError@0
+        
+Referenced in svrDispatcher1.obj
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __IMPORT_DESCRIPTOR_KERNEL32
+        Referenced in kernel32.lib(KERNEL32.dll)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found KERNEL32_NULL_THUNK_DATA
+        Referenced in kernel32.lib(KERNEL32.dll)
+        Loaded kernel32.lib(KERNEL32.dll)
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\user32.lib:
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\gdi32.lib:
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\winspool.lib:
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\comdlg32.lib:
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\advapi32.lib:
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\shell32.lib:
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\ole32.lib:
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\oleaut32.lib:
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\uuid.lib:
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\odbc32.lib:
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\odbccp32.lib:
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\PlatformSDK\lib\Ws2_32.lib:
+      Found __imp__WSACleanup@0
+        Referenced in svrDispatcher1.obj
+        Loaded Ws2_32.lib(WS2_32.dll)
+      Found __imp__closesocket@4
+        Referenced in svrDispatcher1.obj
+        Loaded Ws2_32.lib(WS2_32.dll)
+      Found __imp__sendto@24
+        Referenced in svrDispatcher1.obj
+        Loaded Ws2_32.lib(WS2_32.dll)
+      Found __imp__inet_ntoa@4
+        Referenced in svrDispatcher1.obj
+        Loaded Ws2_32.lib(WS2_32.dll)
+      Found __imp__recvfrom@24
+        Referenced in svrDispatcher1.obj
+        Loaded Ws2_32.lib(WS2_32.dll)
+      Found __imp__bind@12
+        Referenced in svrDispatcher1.obj
+        Loaded Ws2_32.lib(WS2_32.dll)
+      Found __imp__htonl@4
+        Referenced in svrDispatcher1.obj
+        Loaded Ws2_32.lib(WS2_32.dll)
+      Found __imp__htons@4
+        Referenced in svrDispatcher1.obj
+        Loaded Ws2_32.lib(WS2_32.dll)
+      Found __imp__WSAGetLastError@0
+        Referenced in svrDispatcher1.obj
+        Loaded Ws2_32.lib(WS2_32.dll)
+      Found __imp__socket@12
+        Referenced in svrDispatcher1.obj
+        Loaded Ws2_32.lib(WS2_32.dll)
+      Found __imp__WSAStartup@8
+        Referenced in svrDispatcher1.obj
+        Loaded Ws2_32.lib(WS2_32.dll)
+      Found __IMPORT_DESCRIPTOR_WS2_32
+        Referenced in Ws2_32.lib(WS2_32.dll)
+        Referenced in Ws2_32.lib(WS2_32.dll)
+        Referenced in Ws2_32.lib(WS2_32.dll)
+        Referenced in Ws2_32.lib(WS2_32.dll)
+        Referenced in Ws2_32.lib(WS2_32.dll)
+        Referenced in Ws2_32.lib(WS2_32.dll)
+        Referenced in Ws2_32.lib(WS2_32.dll)
+        Referenced in Ws2_32.lib(WS2_32.dll)
+        Referenced in Ws2_32.lib(WS2_32.dll)
+        Referenced in Ws2_32.lib(WS2_32.dll)
+        Referenced in Ws2_32.lib(WS2_32.dll)
+        Loaded Ws2_32.lib(WS2_32.dll)
+      Found WS2_32_NULL_THUNK_DATA
+        Referenced in Ws2_32.lib(WS2_32.dll)
+        Loaded Ws2_32.lib(WS2_32.dll)
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\lib\LIBCD.lib:
+      Found "void * __cdecl operator new(unsigned int,int,char const *,int)" (??2@YAPAXIHPBDH@Z)
+        Referenced in svrDispatcher1.obj
+        Loaded LIBCD.lib(dbgnew.obj)
+      Found __RTC_CheckEsp
+        Referenced in svrDispatcher1.obj
+        Loaded LIBCD.lib(stack.obj)
+      
+Found __RTC_Shutdown
+        Referenced in svrDispatcher1.obj
+        Loaded LIBCD.lib(init.obj)
+      Found __free_dbg
+        Referenced in svrDispatcher1.obj
+        Loaded LIBCD.lib(dbgheap.obj)
+      Found _sprintf
+        Referenced in svrDispatcher1.obj
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Loaded LIBCD.lib(sprintf.obj)
+      Found _fprintf
+        Referenced in svrDispatcher1.obj
+        Loaded LIBCD.lib(fprintf.obj)
+      Found _printf
+        Referenced in svrDispatcher1.obj
+        Loaded LIBCD.lib(printf.obj)
+      Found _strlen
+        Referenced in svrDispatcher1.obj
+        Loaded LIBCD.lib(strlen.obj)
+      Found _strcpy
+        Referenced in svrDispatcher1.obj
+        Loaded LIBCD.lib(strcat.obj)
+      Found _memset
+        Referenced in svrDispatcher1.obj
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Loaded LIBCD.lib(memset.obj)
+      Found __iob
+        Referenced in svrDispatcher1.obj
+        Referenced in LIBCD.lib(printf.obj)
+        Loaded LIBCD.lib(_file.obj)
+      Found __strdate
+        Referenced in svrDispatcher1.obj
+        Loaded LIBCD.lib(strdate.obj)
+      Found __strtime
+        Referenced in svrDispatcher1.obj
+        Loaded LIBCD.lib(strtime.obj)
+      Found __chkstk
+        Referenced in svrDispatcher1.obj
+        Loaded LIBCD.lib(chkstk.obj)
+      Found __RTC_UninitUse
+        Referenced in svrDispatcher1.obj
+        Loaded LIBCD.lib(error.obj)
+      Found _mainCRTStartup
+        Loaded LIBCD.lib(crt0.obj)
+      Found __RTC_SetErrorFunc
+        Referenced in LIBCD.lib(init.obj)
+        Loaded LIBCD.lib(userapi.obj)
+      Found __CRT_RTC_INIT
+        Referenced in LIBCD.lib(init.obj)
+        Loaded LIBCD.lib(chkesp.obj)
+      Found __newmode
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Loaded LIBCD.lib(_newmode.obj)
+      Found __callnewh
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Loaded LIBCD.lib(handler.obj)
+      Found __heap_alloc_base
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Loaded LIBCD.lib(malloc.obj)
+      Found __pfnA
+llocHook
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Loaded LIBCD.lib(dbghook.obj)
+      Found __CrtDbgReport
+        Referenced in LIBCD.lib(chkesp.obj)
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Referenced in LIBCD.lib(sprintf.obj)
+        Referenced in LIBCD.lib(fprintf.obj)
+        Referenced in LIBCD.lib(printf.obj)
+        Loaded LIBCD.lib(dbgrpt.obj)
+      Found __expand_base
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Loaded LIBCD.lib(expand.obj)
+      Found __realloc_base
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Loaded LIBCD.lib(realloc.obj)
+      Found __free_base
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Referenced in LIBCD.lib(realloc.obj)
+        Loaded LIBCD.lib(free.obj)
+      Found __heapchk
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Loaded LIBCD.lib(heapchk.obj)
+      Found __crtheap
+        Referenced in LIBCD.lib(free.obj)
+        Referenced in LIBCD.lib(heapchk.obj)
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Referenced in LIBCD.lib(malloc.obj)
+        Referenced in LIBCD.lib(expand.obj)
+        Referenced in LIBCD.lib(realloc.obj)
+        Loaded LIBCD.lib(heapinit.obj)
+      Found __osver
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Referenced in LIBCD.lib(crt0.obj)
+        Loaded LIBCD.lib(crt0dat.obj)
+      Found ___sbh_verify_block
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Loaded LIBCD.lib(sbheap.obj)
+      Found __chvalidator
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Loaded LIBCD.lib(isctype.obj)
+      Found ___mb_cur_max
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Loaded LIBCD.lib(nlsdata1.obj)
+      Found ___security_cookie
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Loaded LIBCD.lib(seccook.obj)
+      Found @__security_check_cookie@4
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Loaded LIBCD.lib(secchk.obj)
+      Found _memcpy
+        Referenced in LIBCD.lib(dbgheap.obj)
+     
+   Referenced in LIBCD.lib(realloc.obj)
+        Loaded LIBCD.lib(memcpy.obj)
+      Found __flsbuf
+        Referenced in LIBCD.lib(sprintf.obj)
+        Loaded LIBCD.lib(_flsbuf.obj)
+      Found __output
+        Referenced in LIBCD.lib(sprintf.obj)
+        Referenced in LIBCD.lib(fprintf.obj)
+        Referenced in LIBCD.lib(printf.obj)
+        Loaded LIBCD.lib(output.obj)
+      Found __ftbuf
+        Referenced in LIBCD.lib(fprintf.obj)
+        Referenced in LIBCD.lib(printf.obj)
+        Loaded LIBCD.lib(_sftbuf.obj)
+      Found ___pioinfo
+        Referenced in LIBCD.lib(_file.obj)
+        Referenced in LIBCD.lib(_flsbuf.obj)
+        Loaded LIBCD.lib(ioinit.obj)
+      Found __fcloseall
+        Referenced in LIBCD.lib(_file.obj)
+        Loaded LIBCD.lib(closeall.obj)
+      Found __flushall
+        Referenced in LIBCD.lib(_file.obj)
+        Loaded LIBCD.lib(fflush.obj)
+      Found "int __cdecl _RTC_GetSrcLine(unsigned long,char *,int,int *,char * *)" (?_RTC_GetSrcLine@@YAHKPADHPAHPAPAD@Z)
+        Referenced in LIBCD.lib(error.obj)
+        Loaded LIBCD.lib(pdblkup.obj)
+      Found __except_list
+        Referenced in LIBCD.lib(error.obj)
+        Referenced in LIBCD.lib(crt0.obj)
+        Referenced in LIBCD.lib(secchk.obj)
+        Loaded LIBCD.lib(exsup.obj)
+      Found __except_handler3
+        Referenced in LIBCD.lib(error.obj)
+        Referenced in LIBCD.lib(crt0.obj)
+        Referenced in LIBCD.lib(secchk.obj)
+        Loaded LIBCD.lib(exsup3.obj)
+      Found __XcptFilter
+        Referenced in LIBCD.lib(crt0.obj)
+        Loaded LIBCD.lib(winxfltr.obj)
+      Found __setenvp
+        Referenced in LIBCD.lib(crt0.obj)
+        Loaded LIBCD.lib(stdenvp.obj)
+      Found __setargv
+        Referenced in LIBCD.lib(crt0.obj)
+        Loaded LIBCD.lib(stdargv.obj)
+      Found ___crtGetEnvironmentStringsA
+        Referenced in LIBCD.lib(crt0.obj)
+        Loaded LIBCD.lib(a_env.obj)
+      Found __RTC_Initialize
+        Referenced in LIBCD.lib(crt0.obj)
+        Loaded LIBCD.lib(initsect.obj)
+      Found __NMSG_WRITE
+        Reference
+d in LIBCD.lib(crt0.obj)
+        Loaded LIBCD.lib(crt0msg.obj)
+      Found __itoa
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Loaded LIBCD.lib(xtoa.obj)
+      Found __snprintf
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Loaded LIBCD.lib(snprintf.obj)
+      Found __vsnprintf
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Loaded LIBCD.lib(vsnprint.obj)
+      Found _raise
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Loaded LIBCD.lib(winsig.obj)
+      Found ___crtMessageBoxA
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Referenced in LIBCD.lib(crt0msg.obj)
+        Loaded LIBCD.lib(crtmbox.obj)
+      Found _strncpy
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Referenced in LIBCD.lib(crt0msg.obj)
+        Loaded LIBCD.lib(strncpy.obj)
+      Found ___xc_a
+        Referenced in LIBCD.lib(crt0dat.obj)
+        Loaded LIBCD.lib(crt0init.obj)
+Processed /DEFAULTLIB:kernel32.lib
+ Processed /DISALLOWLIB:libc.lib
+ Processed /DISALLOWLIB:libcmt.lib
+ Processed /DISALLOWLIB:libcmtd.lib
+ Processed /DISALLOWLIB:msvcrt.lib
+ Processed /DISALLOWLIB:msvcrtd.lib
+      Found _atexit
+        Referenced in LIBCD.lib(crt0dat.obj)
+        Loaded LIBCD.lib(onexit.obj)
+      Found _memmove
+        Referenced in LIBCD.lib(sbheap.obj)
+        Loaded LIBCD.lib(memmove.obj)
+      Found __pctype
+        Referenced in LIBCD.lib(isctype.obj)
+        Referenced in LIBCD.lib(output.obj)
+        Loaded LIBCD.lib(ctype.obj)
+      Found ___crtGetStringTypeA
+        Referenced in LIBCD.lib(isctype.obj)
+        Loaded LIBCD.lib(a_str.obj)
+      Found ___lc_codepage
+        Referenced in LIBCD.lib(isctype.obj)
+        Referenced in LIBCD.lib(a_str.obj)
+        Loaded LIBCD.lib(nlsdata2.obj)
+      Found ___security_init_cookie
+        Referenced in LIBCD.lib(secchk.obj)
+        Loaded LIBCD.lib(seccinit.obj)
+      Found ___security_error_handler
+        Referenced in LIBCD.lib(secchk.obj)
+        Loaded LIBCD.lib(secfail.obj)
+      Found __lseek
+        Referenced in LIBCD.lib(_flsbuf.obj)
+        Loaded LIBCD.lib(lseek.obj)
+      Found __write
+        Referenced in LIBCD.lib(_flsbuf.obj)
+        Referenced in LIBCD.lib(fflush.obj)
+        Loaded LIBCD.lib(write.obj)
+      Found __getbuf
+        Referenced in LIBCD.lib(_flsbuf.obj)
+        Loaded LIBCD.lib(_getbuf.obj)
+      Found __isatty
+        Referenced in LIBCD.lib(_flsbuf.obj)
+        Referenced in LIBCD.lib(_sftbuf.obj)
+        Loaded LIBCD.lib(isatty.obj)
+      Found __cfltcvt_tab
+        Referenced in LIBCD.lib(output.obj)
+        Loaded LIBCD.lib(cmiscdat.obj)
+      Found _wctomb
+        Referenced in LIBCD.lib(output.obj)
+        Loaded LIBCD.lib(wctomb.obj)
+      Found __aulldiv
+        Referenced in LIBCD.lib(output.obj)
+        Referenced in LIBCD.lib(xtoa.obj)
+        Loaded LIBCD.lib(ulldiv.obj)
+      Found __aullrem
+        Referenced in LIBCD.lib(output.obj)
+        Referenced in LIBCD.lib(xtoa.obj)
+        Loaded LIBCD.lib(ullrem.obj)
+      Found _fclose
+        Referenced in LIBCD.lib(closeall.obj)
+        Loaded LIBCD.lib(fclose.obj)
+      Found __commit
+        Referenced in LIBCD.lib(
+fflush.obj)
+        Loaded LIBCD.lib(commit.obj)
+      Found __ValidateEH3RN
+        Referenced in LIBCD.lib(exsup3.obj)
+        Loaded LIBCD.lib(eh3valid.obj)
+      Found ___initmbctable
+        Referenced in LIBCD.lib(stdenvp.obj)
+        Referenced in LIBCD.lib(stdargv.obj)
+        Loaded LIBCD.lib(mbctype.obj)
+      Found __resetstkoflw
+        Referenced in LIBCD.lib(a_str.obj)
+        Loaded LIBCD.lib(resetstk.obj)
+      Found ___convertcp
+        Referenced in LIBCD.lib(a_str.obj)
+        Loaded LIBCD.lib(convrtcp.obj)
+      Found __dosmaperr
+        Referenced in LIBCD.lib(lseek.obj)
+        Referenced in LIBCD.lib(write.obj)
+        Loaded LIBCD.lib(dosmap.obj)
+      Found __get_osfhandle
+        Referenced in LIBCD.lib(lseek.obj)
+        Referenced in LIBCD.lib(commit.obj)
+        Loaded LIBCD.lib(osfinfo.obj)
+      Found __lseeki64
+        Referenced in LIBCD.lib(write.obj)
+        Loaded LIBCD.lib(lseeki64.obj)
+      Found __fptrap
+        Referenced in LIBCD.lib(cmiscdat.obj)
+        Loaded LIBCD.lib(crt0fp.obj)
+      Found __close
+        Referenced in LIBCD.lib(fclose.obj)
+        Loaded LIBCD.lib(close.obj)
+      Found __freebuf
+        Referenced in LIBCD.lib(fclose.obj)
+        Loaded LIBCD.lib(_freebuf.obj)
+      Found ___crtLCMapStringA
+        Referenced in LIBCD.lib(mbctype.obj)
+        Loaded LIBCD.lib(a_map.obj)
+      Found _atol
+        Referenced in LIBCD.lib(convrtcp.obj)
+        Loaded LIBCD.lib(atox.obj)
+      Found __ismbcspace
+        Referenced in LIBCD.lib(atox.obj)
+        Loaded LIBCD.lib(ismbspc.obj)
+      Found __allmul
+        Referenced in LIBCD.lib(atox.obj)
+        Loaded LIBCD.lib(llmul.obj)
+    Searching C:\Archivos de programa\Microsoft Visual Studio .NET 2003\Vc7\lib\OLDNAMES.lib:
+    Searching C:\E900\system\lib32\JDEKRNL.lib:
+    Searching C:\E900\system\lib32\jdeunicode.lib:
+    Searching C:\E900\system\lib32\jdel.lib:
+    Searching C:\E900\OWDC\Lib\pdcurses.lib:
+    Searching C:\E900\OWDC\Lib\OWDCmp.lib:
+    Searching C:\E900\OWDC\Lib\OWDC.lib:
+    Searching C:\Arc
+hivos de programa\Microsoft Visual Studio .NET 2003\Vc7\lib\kernel32.lib:
+      Found __imp__IsBadWritePtr@8
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Referenced in LIBCD.lib(sbheap.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__IsBadReadPtr@8
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__HeapValidate@12
+        Referenced in LIBCD.lib(dbgheap.obj)
+        Referenced in LIBCD.lib(heapchk.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetLocalTime@4
+        Referenced in LIBCD.lib(strdate.obj)
+        Referenced in LIBCD.lib(strtime.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__DebugBreak@0
+        Referenced in LIBCD.lib(error.obj)
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__RaiseException@16
+        Referenced in LIBCD.lib(error.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetVersionExA@4
+        Referenced in LIBCD.lib(error.obj)
+        Referenced in LIBCD.lib(crt0.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetProcAddress@8
+        Referenced in LIBCD.lib(crtmbox.obj)
+        Referenced in LIBCD.lib(error.obj)
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Referenced in LIBCD.lib(crt0dat.obj)
+        Referenced in LIBCD.lib(pdblkup.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__LoadLibraryA@4
+        Referenced in LIBCD.lib(error.obj)
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Referenced in LIBCD.lib(pdblkup.obj)
+        Referenced in LIBCD.lib(crtmbox.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetCommandLineA@0
+        Referenced in LIBCD.lib(crt0.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetModuleHandleA@4
+        Referenced in LIBCD.lib(crt0.obj)
+        Referenced in LIBCD.lib(crt0dat.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__HeapAlloc@12
+        Referenced in LIBCD.lib(mall
+oc.obj)
+        Referenced in LIBCD.lib(realloc.obj)
+        Referenced in LIBCD.lib(sbheap.obj)
+        Referenced in LIBCD.lib(pdblkup.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetStdHandle@4
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Referenced in LIBCD.lib(ioinit.obj)
+        Referenced in LIBCD.lib(crt0msg.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__WriteFile@20
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Referenced in LIBCD.lib(crt0msg.obj)
+        Referenced in LIBCD.lib(write.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__InterlockedDecrement@4
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__OutputDebugStringA@4
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__InterlockedIncrement@4
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetModuleFileNameA@12
+        Referenced in LIBCD.lib(secfail.obj)
+        Referenced in LIBCD.lib(dbgrpt.obj)
+        Referenced in LIBCD.lib(pdblkup.obj)
+        Referenced in LIBCD.lib(stdargv.obj)
+        Referenced in LIBCD.lib(crt0msg.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__HeapReAlloc@16
+        Referenced in LIBCD.lib(expand.obj)
+        Referenced in LIBCD.lib(realloc.obj)
+        Referenced in LIBCD.lib(sbheap.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__HeapFree@12
+        Referenced in LIBCD.lib(free.obj)
+        Referenced in LIBCD.lib(heapinit.obj)
+        Referenced in LIBCD.lib(sbheap.obj)
+        Referenced in LIBCD.lib(pdblkup.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__HeapDestroy@4
+        Referenced in LIBCD.lib(heapinit.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__HeapCreate@12
+        Referenced in LIBCD.lib(heapinit.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__VirtualFree@12
+        Referenced in LIB
+CD.lib(heapinit.obj)
+        Referenced in LIBCD.lib(sbheap.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__TerminateProcess@8
+        Referenced in LIBCD.lib(crt0dat.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetCurrentProcess@0
+        Referenced in LIBCD.lib(crt0dat.obj)
+        Referenced in LIBCD.lib(pdblkup.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__ExitProcess@4
+        Referenced in LIBCD.lib(crt0dat.obj)
+        Referenced in LIBCD.lib(secchk.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__VirtualAlloc@16
+        Referenced in LIBCD.lib(sbheap.obj)
+        Referenced in LIBCD.lib(resetstk.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__SetHandleCount@4
+        Referenced in LIBCD.lib(ioinit.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetFileType@4
+        Referenced in LIBCD.lib(ioinit.obj)
+        Referenced in LIBCD.lib(osfinfo.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetStartupInfoA@4
+        Referenced in LIBCD.lib(ioinit.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetProcessHeap@0
+        Referenced in LIBCD.lib(pdblkup.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__CloseHandle@4
+        Referenced in LIBCD.lib(pdblkup.obj)
+        Referenced in LIBCD.lib(close.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__FreeLibrary@4
+        Referenced in LIBCD.lib(pdblkup.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found _RtlUnwind@16
+        Referenced in LIBCD.lib(exsup.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__UnhandledExceptionFilter@4
+        Referenced in LIBCD.lib(winxfltr.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__FreeEnvironmentStringsA@4
+        Referenced in LIBCD.lib(a_env.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetEnvironmentStrings@0
+        Referenced in LIBCD.lib(a_env.obj)
+        Loaded kernel32.lib(KERNEL32.d
+ll)
+      Found __imp__FreeEnvironmentStringsW@4
+        Referenced in LIBCD.lib(a_env.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__WideCharToMultiByte@32
+        Referenced in LIBCD.lib(a_env.obj)
+        Referenced in LIBCD.lib(wctomb.obj)
+        Referenced in LIBCD.lib(convrtcp.obj)
+        Referenced in LIBCD.lib(a_map.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetEnvironmentStringsW@0
+        Referenced in LIBCD.lib(a_env.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__SetConsoleCtrlHandler@8
+        Referenced in LIBCD.lib(winsig.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__MultiByteToWideChar@24
+        Referenced in LIBCD.lib(a_str.obj)
+        Referenced in LIBCD.lib(convrtcp.obj)
+        Referenced in LIBCD.lib(a_map.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetStringTypeA@20
+        Referenced in LIBCD.lib(a_str.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetStringTypeW@16
+        Referenced in LIBCD.lib(a_str.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__QueryPerformanceCounter@4
+        Referenced in LIBCD.lib(seccinit.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetTickCount@0
+        Referenced in LIBCD.lib(seccinit.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetCurrentThreadId@0
+        Referenced in LIBCD.lib(seccinit.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetCurrentProcessId@0
+        Referenced in LIBCD.lib(seccinit.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetSystemTimeAsFileTime@4
+        Referenced in LIBCD.lib(seccinit.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__SetFilePointer@16
+        Referenced in LIBCD.lib(lseek.obj)
+        Referenced in LIBCD.lib(lseeki64.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__FlushFileBuffers@4
+        Referenced in LIBCD.lib(commit.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+
+      Found __imp__VirtualQuery@12
+        Referenced in LIBCD.lib(eh3valid.obj)
+        Referenced in LIBCD.lib(resetstk.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__InterlockedExchange@8
+        Referenced in LIBCD.lib(eh3valid.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetCPInfo@8
+        Referenced in LIBCD.lib(mbctype.obj)
+        Referenced in LIBCD.lib(convrtcp.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetACP@0
+        Referenced in LIBCD.lib(mbctype.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetOEMCP@0
+        Referenced in LIBCD.lib(mbctype.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__VirtualProtect@16
+        Referenced in LIBCD.lib(resetstk.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetSystemInfo@4
+        Referenced in LIBCD.lib(resetstk.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__GetLocaleInfoA@16
+        Referenced in LIBCD.lib(convrtcp.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__SetStdHandle@8
+        Referenced in LIBCD.lib(osfinfo.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__LCMapStringA@24
+        Referenced in LIBCD.lib(a_map.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+      Found __imp__LCMapStringW@24
+        Referenced in LIBCD.lib(a_map.obj)
+        Loaded kernel32.lib(KERNEL32.dll)
+Finished searching libraries
+Finished pass 1
+Generating non-SAFESEH image.
+Starting pass 2
+     svrDispatcher1.obj
+     JDEKRNL.lib(Jdekrnl.dll)
+     JDEKRNL.lib(Jdekrnl.dll)
+     JDEKRNL.lib(Jdekrnl.dll)
+     JDEKRNL.lib(Jdekrnl.dll)
+     JDEKRNL.lib(Jdekrnl.dll)
+     JDEKRNL.lib(Jdekrnl.dll)
+     JDEKRNL.lib(Jdekrnl.dll)
+     JDEKRNL.lib(Jdekrnl.dll)
+     JDEKRNL.lib(Jdekrnl.dll)
+     JDEKRNL.lib(Jdekrnl.dll)
+     JDEKRNL.lib(Jdekrnl.dll)
+     JDEKRNL.lib(Jdekrnl.dll)
+     JDEKRNL.lib(Jdekrnl.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdeunicode.lib(jdeunicode.dll)
+     jdel.lib(jdel.dll)
+     jdel.lib(jdel.dll)
+     jdel.lib(jdel.dll)
+     OWDCmp.lib(OWDCmp.dll)
+     OWDCmp.lib(OWDCmp.dll)
+     OWDCmp.lib(OWDCmp.dll)
+     OWDCmp.lib(OWDCmp.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kerne
+32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     kernel32.lib(KERNEL32.dll)
+     Ws2_32.lib(WS2_32.dll)
+     Ws2_32.lib(WS2_32.dll)
+     Ws2_32.lib(WS2_32.dll)
+     Ws2_32.lib(WS2_32.dll)
+     Ws2_32.lib(WS2_32.dll)
+     Ws2_32.lib(WS2_32.dll)
+     Ws2_32.lib(WS2_32.dll)
+     Ws2_32.lib(WS2_32.dll)
+     Ws2_32.lib(WS2_32.dll)
+     Ws2_32.lib(WS2_32.dll)
+     Ws2_32.lib(WS2_32.dll)
+     Ws2_32.lib(WS2_32.dll)
+     Ws2_32.lib(WS2_32.dll)
+     LIBCD.lib(strtime.obj)
+     LIBCD.lib(strdate.obj)
+     LIBCD.lib(strncpy.obj)
+     LIBCD.lib(strlen.obj)
+     LIBCD.lib(strcat.obj)
+     LIBCD.lib(memset.obj)
+     LIBCD.lib(memmove.obj)
+     LIBCD.lib(memcpy.obj)
+     LIBCD.lib(vsnprint.obj)
+     LIBCD.lib(sprintf.obj)
+     LIBCD.lib(snprintf.obj)
+     LIBCD.lib(printf.obj)
+     LIBCD.lib(output.obj)
+     LIBCD.lib(fprintf.obj)
+     LIBCD.lib(fflush.obj)
+     LIBCD.lib(fclose.obj)
+     LIBCD.lib(closeall.obj)
+     LIB
+CD.lib(_sftbuf.obj)
+     LIBCD.lib(_getbuf.obj)
+     LIBCD.lib(_freebuf.obj)
+     LIBCD.lib(_flsbuf.obj)
+     LIBCD.lib(_file.obj)
+     LIBCD.lib(stdenvp.obj)
+     LIBCD.lib(stdargv.obj)
+     LIBCD.lib(crt0msg.obj)
+     LIBCD.lib(crt0init.obj)
+     LIBCD.lib(crt0fp.obj)
+     LIBCD.lib(crt0dat.obj)
+     LIBCD.lib(crt0.obj)
+     LIBCD.lib(chkstk.obj)
+     LIBCD.lib(userapi.obj)
+     LIBCD.lib(stack.obj)
+     LIBCD.lib(pdblkup.obj)
+     LIBCD.lib(initsect.obj)
+     LIBCD.lib(init.obj)
+     LIBCD.lib(error.obj)
+     LIBCD.lib(winxfltr.obj)
+     LIBCD.lib(winsig.obj)
+     LIBCD.lib(convrtcp.obj)
+     LIBCD.lib(onexit.obj)
+     LIBCD.lib(nlsdata2.obj)
+     LIBCD.lib(nlsdata1.obj)
+     LIBCD.lib(dbgrpt.obj)
+     LIBCD.lib(dbgnew.obj)
+     LIBCD.lib(dbghook.obj)
+     LIBCD.lib(dbgheap.obj)
+     LIBCD.lib(ctype.obj)
+     LIBCD.lib(crtmbox.obj)
+     LIBCD.lib(cmiscdat.obj)
+     LIBCD.lib(a_str.obj)
+     LIBCD.lib(a_map.obj)
+     LIBCD.lib(a_env.obj)
+     LIBCD.lib(secfail.obj)
+     LIBCD.lib(seccook.obj)
+     LIBCD.lib(seccinit.obj)
+     LIBCD.lib(secchk.obj)
+     LIBCD.lib(exsup3.obj)
+     LIBCD.lib(exsup.obj)
+     LIBCD.lib(eh3valid.obj)
+     LIBCD.lib(chkesp.obj)
+     LIBCD.lib(mbctype.obj)
+     LIBCD.lib(ismbspc.obj)
+     LIBCD.lib(write.obj)
+     LIBCD.lib(osfinfo.obj)
+     LIBCD.lib(lseeki64.obj)
+     LIBCD.lib(lseek.obj)
+     LIBCD.lib(isatty.obj)
+     LIBCD.lib(ioinit.obj)
+     LIBCD.lib(commit.obj)
+     LIBCD.lib(close.obj)
+     LIBCD.lib(ullrem.obj)
+     LIBCD.lib(ulldiv.obj)
+     LIBCD.lib(llmul.obj)
+     LIBCD.lib(_newmode.obj)
+     LIBCD.lib(handler.obj)
+     LIBCD.lib(sbheap.obj)
+     LIBCD.lib(realloc.obj)
+     LIBCD.lib(malloc.obj)
+     LIBCD.lib(heapinit.obj)
+     LIBCD.lib(heapchk.obj)
+     LIBCD.lib(free.obj)
+     LIBCD.lib(expand.obj)
+     LIBCD.lib(resetstk.obj)
+     LIBCD.lib(dosmap.obj)
+     LIBCD.lib(xtoa.obj)
+     LIBCD.lib(wctomb.obj)
+     LIBCD.lib(isctype.obj)
+     LIBCD.lib(atox.obj)
+Finished pass 2
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://c:\E900\Owdc\Source\svrDispatcher\Debug\BuildLog.htm"
+svrDispatcher - 0 error(s), 1 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>
